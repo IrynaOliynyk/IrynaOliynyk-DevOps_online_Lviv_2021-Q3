@@ -1,0 +1,16 @@
+da6ae0f (HEAD -> develop, origin/develop) HEAD@{0}: commit (merge): images-develop merging
+ad65de8 (origin/images, images) HEAD@{1}: merge images: Fast-forward
+5123157 HEAD@{2}: checkout: moving from styles to develop
+a24aad3 (origin/styles, styles) HEAD@{3}: commit: Add styles in index.html
+5123157 HEAD@{4}: checkout: moving from develop to styles
+5123157 HEAD@{5}: checkout: moving from images to develop
+ad65de8 (origin/images, images) HEAD@{6}: commit: Add images source inside it
+8668d0b HEAD@{7}: commit: Change index.html
+00a2b25 HEAD@{8}: commit: Add images folder with some images
+5123157 HEAD@{9}: checkout: moving from develop to images
+5123157 HEAD@{10}: commit: Add html file
+715d38e (origin/main, origin/HEAD, main) HEAD@{11}: checkout: moving from main to develop
+715d38e (origin/main, origin/HEAD, main) HEAD@{12}: commit: Add readme.txt file
+494a837 HEAD@{13}: clone: from https://github.com/IrynaOliynyk/IrynaOliynyk-DevOps_online_Lviv_2021-Q3.git
+
+romchik@DESKTOP-8A62AR8 MINGW64 /c/users/ira/IrynaOliynyk-DevOps_online_Lviv_202
