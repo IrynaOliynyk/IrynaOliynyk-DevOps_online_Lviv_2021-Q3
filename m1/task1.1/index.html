@@ -2,10 +2,24 @@
 	<html>
 	  <head>
 	    <meta charset="UTF-8" />
-	    <img src="C:\Users\ira\IrynaOliynyk-DevOps_online_Lviv_2021-Q3\m1\task1.1\imeges">
+	    <img src="C:\Users\ira\IrynaOliynyk-DevOps_online_Lviv_2021-Q3\m1\task1.1\images">
 	  </head>
 	  <body>
-	    ― Hello World! &#x1F609;
+	  <?php 
+$dir    = '/images';
+$files = scandir($dir);
+$images = array();
+foreach($files as $file) {
+  if(fnmatch('*.jpg',$file)) {
+    $images[] = $file;
+  }
+}
+
+foreach($images as $image) {
+  echo '<img src="images/'.$image.'" />';
+}
+?>
+ Hello World! &#x1F609;
 	  </body>
 	</html>
 
