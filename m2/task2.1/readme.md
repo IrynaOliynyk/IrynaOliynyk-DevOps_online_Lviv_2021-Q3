@@ -48,6 +48,12 @@
 
 ![image](https://user-images.githubusercontent.com/58170246/124381957-ba7b9600-dccd-11eb-96d5-b3448bc63915.png)
 
+![image](https://user-images.githubusercontent.com/58170246/124383943-d4ba7180-dcd7-11eb-8605-0a945ab640a2.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124384033-41357080-dcd8-11eb-808a-2cd70b0bfc70.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124384047-53171380-dcd8-11eb-9b26-a04e934e2a3b.png)
+
 
 
 ## 2. Configuration of virtual machines
