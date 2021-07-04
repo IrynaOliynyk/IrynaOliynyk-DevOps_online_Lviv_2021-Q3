@@ -79,6 +79,13 @@
 2.4 Configure  different  network  modes  for  VM1,  VM2.  Check  the  connection between VM1, VM2, Host, Internet for different network modes. You can use the pingcommand to do this. Make a table of possible connections.
 
 
+## 3.Work with CLI through VBoxManage.
+
+3.1 Run the cmd.exe command line.
+
+3.2 Examine  the  purpose  and  execute  the  basic  commands  of  VBoxManage list, showvminfo, createvm, startvm, modifyvm, clonevm, snapshot, controlvm[1, ch.8].
+
+
 
 
 
