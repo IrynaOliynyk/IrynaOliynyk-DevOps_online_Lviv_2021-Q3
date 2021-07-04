@@ -58,6 +58,19 @@
 
 ## 2. Configuration of virtual machines
 
+2.1 Explore VM configuration options (general settings, system settings, display, storage, audio, network, etc.).
+
+![image](https://user-images.githubusercontent.com/58170246/124384305-362f1000-dcd9-11eb-976d-eabe81e09bc2.png)
+
+2.2 Configure the USB to connect the USB ports of the host machine to the VM [1, ch.3.11].
+
+![image](https://user-images.githubusercontent.com/58170246/124384339-5a8aec80-dcd9-11eb-8605-cdf28f942018.png)
+
+2.3 Configure a shared folder to exchange data between the virtual machine and the host [1, ch.4.3].
+
+2.4 Configure  different  network  modes  for  VM1,  VM2.  Check  the  connection between VM1, VM2, Host, Internet for different network modes. You can use the pingcommand to do this. Make a table of possible connections.
+
+
 
 
 
