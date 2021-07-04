@@ -1,0 +1,4 @@
+# TASK 2.1
+## PART 1. HYPERVISORS
+1. Hypervisor is a technology for deploying software on physical hardware using virtualization. Hyper-V, KVM, ESXi. - run directly on the hardware and do not require the installation of any operating system. VMware Workstation, Oracle Virtual Box, OpenVZ - you an operating system - through of it you can access the hardware.
+2. Oracle Virtual Box is a Type 2 hypervisor and must be installed on the host operating system as a software application. VMware Player, Workstation and Fusion are Type 2 hypervisors and must also be installed on the underlying host operating system. VMware ESXi is a Type 1 hypervisor and must be installed on a platform without an operating system. VMware and Virtual Box support hardware virtualization. Oracle Virtual Box is a cross-platform solution that can be installed on Linux, Windows, Solaris, macOS, FreeBSD. 
