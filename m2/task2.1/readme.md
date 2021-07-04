@@ -71,12 +71,34 @@
 
 2.3 Configure a shared folder to exchange data between the virtual machine and the host [1, ch.4.3].
 
+sudo adduser iryna vboxsf
+
 ![image](https://user-images.githubusercontent.com/58170246/124385608-261a2f00-dcdf-11eb-88e4-0584f5b92a37.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124395134-0f89cd00-dd0b-11eb-9fd2-93d02e067da5.png)
 
 ![image](https://user-images.githubusercontent.com/58170246/124385377-ebfc5d80-dcdd-11eb-95ec-a117f389edeb.png)
 
 
 2.4 Configure  different  network  modes  for  VM1,  VM2.  Check  the  connection between VM1, VM2, Host, Internet for different network modes. You can use the pingcommand to do this. Make a table of possible connections.
+
+Intnet VM1, VM2,
+
+changed the name of one host -hostname losst-pc
+
+![image](https://user-images.githubusercontent.com/58170246/124396144-968d7400-dd10-11eb-9a12-8675525c2dc0.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124394096-7f498900-dd06-11eb-90d6-25b814b65a21.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124396010-e3247f80-dd0f-11eb-8d14-b34bcfd7d87c.png)
+
+Host-only
+
+![image](https://user-images.githubusercontent.com/58170246/124396723-e9b4f600-dd13-11eb-8c19-033901a66ba7.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124396689-c25e2900-dd13-11eb-9235-7fb2bb860d34.png)
+
+
 
 
 3. Work with CLI through VBoxManage.
