@@ -2,3 +2,35 @@
 ## PART 1. HYPERVISORS
 1. Hypervisor is a technology for deploying software on physical hardware using virtualization. Hyper-V, KVM, ESXi. - run directly on the hardware and do not require the installation of any operating system. VMware Workstation, Oracle Virtual Box, OpenVZ - you an operating system - through of it you can access the hardware.
 2. Oracle Virtual Box is a Type 2 hypervisor and must be installed on the host operating system as a software application. VMware Player, Workstation and Fusion are Type 2 hypervisors and must also be installed on the underlying host operating system. VMware ESXi is a Type 1 hypervisor and must be installed on a platform without an operating system. VMware and Virtual Box support hardware virtualization. Oracle Virtual Box is a cross-platform solution that can be installed on Linux, Windows, Solaris, macOS, FreeBSD. 
+## PART 2. WORK WITH VIRTUALBOX
+1. First run VirtualBox and Virtual Machine (VM).
+1.1 Get acquainted with the structure of the user manual VirtualBox[1](see list of references in the end of the document)
+
+1.2 From the official VirtualBox site [2] download the latest stable version of VirtualBox according to the host operating system (OS) installed on the student's workplace. For Windows, the file may be called, for example, VirtualBox-6.1.10-138449-Win.exe. Install VirtualBox.
+
+1.3 Download the latest stable version of Ubuntu Desktop or Ubuntu Server from the official site [3].
+
+![image](https://user-images.githubusercontent.com/58170246/124380285-96678700-dcc4-11eb-845b-0d181e86a06b.png)
+
+1.4 Create VM1 and install Ubuntu using the instructions [1, chapter 1.8]. Set machine name as "host machine name"_"student last name"
+
+![image](https://user-images.githubusercontent.com/58170246/124380349-dc244f80-dcc4-11eb-8836-02df7bd821f9.png)
+
+1.5 Get acquainted with thepossibilities of VM1 control -start, stop, reboot, save state, use Host key and keyboard shortcuts, mouse capture, etc. [1, ch.1.9].
+
+![image](https://user-images.githubusercontent.com/58170246/124380395-1392fc00-dcc5-11eb-9c4c-44337a1165d1.png)
+
+1.6 Clone an existing VM1 by creating a VM2 [1, ch.1.14].
+
+![image](https://user-images.githubusercontent.com/58170246/124380434-3f15e680-dcc5-11eb-98ed-a6fbebb36b14.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124380439-44733100-dcc5-11eb-86a9-99a51c4a7dc9.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124380446-4c32d580-dcc5-11eb-9b6a-3c026e409f28.png)
+
+1.7 Create a group of two VM: VM1, VM2 and learn the functions related to groups [1, ch.1.10].
+
+
+
+
+
