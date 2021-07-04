@@ -66,7 +66,15 @@
 
 ![image](https://user-images.githubusercontent.com/58170246/124384339-5a8aec80-dcd9-11eb-8605-cdf28f942018.png)
 
+![image](https://user-images.githubusercontent.com/58170246/124384894-18af7580-dcdc-11eb-9bf7-243a91da6d6d.png)
+
+
 2.3 Configure a shared folder to exchange data between the virtual machine and the host [1, ch.4.3].
+
+![image](https://user-images.githubusercontent.com/58170246/124385608-261a2f00-dcdf-11eb-88e4-0584f5b92a37.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124385377-ebfc5d80-dcdd-11eb-95ec-a117f389edeb.png)
+
 
 2.4 Configure  different  network  modes  for  VM1,  VM2.  Check  the  connection between VM1, VM2, Host, Internet for different network modes. You can use the pingcommand to do this. Make a table of possible connections.
 
