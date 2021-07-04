@@ -30,6 +30,32 @@
 
 1.7 Create a group of two VM: VM1, VM2 and learn the functions related to groups [1, ch.1.10].
 
+![image](https://user-images.githubusercontent.com/58170246/124381420-1e508f80-dccb-11eb-893b-ce429738cf07.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124381661-573d3400-dccc-11eb-8ccf-35c105914aff.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124381681-7a67e380-dccc-11eb-9e94-76ccb195a4a4.png)
+
+1.8 For VM1, changing its state, take several different snapshots, forming a branched tree of snapshots[1, ch.1.11].
+
+![image](https://user-images.githubusercontent.com/58170246/124381708-9a97a280-dccc-11eb-8c9a-50b499b20581.png)
+
+1.9 Export VM1. Save the *.ova file to disk. Import VM from *.ova file[1, ch.1.15].
+
+![image](https://user-images.githubusercontent.com/58170246/124381914-8b652480-dccd-11eb-828b-fcdbf5d33845.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124381945-aafc4d00-dccd-11eb-82e7-1fd47235fcdc.png)
+
+![image](https://user-images.githubusercontent.com/58170246/124381957-ba7b9600-dccd-11eb-96d5-b3448bc63915.png)
+
+
+
+## 2. Configuration of virtual machines
+
+
+
+
+
 
 
 
