@@ -55,8 +55,8 @@
 ![image](https://user-images.githubusercontent.com/58170246/124384047-53171380-dcd8-11eb-9b26-a04e934e2a3b.png)
 
 
+2. Configuration of virtual machines
 
-## 2. Configuration of virtual machines
 
 2.1 Explore VM configuration options (general settings, system settings, display, storage, audio, network, etc.).
 
@@ -79,11 +79,18 @@
 2.4 Configure  different  network  modes  for  VM1,  VM2.  Check  the  connection between VM1, VM2, Host, Internet for different network modes. You can use the pingcommand to do this. Make a table of possible connections.
 
 
-## 3.Work with CLI through VBoxManage.
+3. Work with CLI through VBoxManage.
 
 3.1 Run the cmd.exe command line.
 
 3.2 Examine  the  purpose  and  execute  the  basic  commands  of  VBoxManage list, showvminfo, createvm, startvm, modifyvm, clonevm, snapshot, controlvm[1, ch.8].
+
+
+## PART 3. WORK WITH VAGRANT
+
+1.Download the required version of Vagrant according to the instructions [5] and according  to  the  host  operating  system  (OS)  installed  on  the  student's  workplace.  For Windows, the file may be called, for example, vagrant_2.2.0_x86_64.msi. Install Vagrant. Check  the  path  to  Vagrant  bin  in  the  Path  variable (My  computer -> Properties -> Advanced system settings -> Advanced -> Environment Variables).
+
+2.Run the powershell. Create a folder "student name" (in English). In this example, create a folder vagrant_test. Next, go to the folder.
 
 
 
