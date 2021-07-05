@@ -1,0 +1,16 @@
+ Vagrant::Config.run do |config|
+ 
+ config.vm.define :Ubuntu do |config|
+config.vm.box = "hashicorp/bionic64"
+config.vm.forward_port 80, 80
+<<-SHELL
+  apt-get update
+  apt-get install -y apache2
+ SHELL
+  end
+
+  config.vm.define :Centos do |config|
+config.vm.box = "centos/7"
+config.vm.forward_port 80, 8080
+  end
+ end
