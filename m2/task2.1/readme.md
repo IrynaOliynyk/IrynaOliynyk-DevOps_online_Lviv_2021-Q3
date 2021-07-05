@@ -128,6 +128,8 @@ Host-only
 
 9. (optional)Createa  test  environment  from  a  few  servers.  Servers'  parameters are chosen independently by the student.
 
+https://github.com/IrynaOliynyk/IrynaOliynyk-DevOps_online_Lviv_2021-Q3/blob/main/m2/task2.1/vagrant
+
 
 
 
