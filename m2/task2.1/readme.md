@@ -88,10 +88,6 @@ changed the name of one host -hostname losst-pc
 
 ![image](https://user-images.githubusercontent.com/58170246/124396144-968d7400-dd10-11eb-9a12-8675525c2dc0.png)
 
-![image](https://user-images.githubusercontent.com/58170246/124394096-7f498900-dd06-11eb-90d6-25b814b65a21.png)
-
-![image](https://user-images.githubusercontent.com/58170246/124396010-e3247f80-dd0f-11eb-8d14-b34bcfd7d87c.png)
-
 Host-only
 
 ![image](https://user-images.githubusercontent.com/58170246/124396723-e9b4f600-dd13-11eb-8c19-033901a66ba7.png)
