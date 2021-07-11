@@ -245,6 +245,11 @@ VPC- расположено врамках выбраного региона AWS
 
 Подсеть будет считаться приватной.
 
+
+если необходимо внести изменения
+
+https://medium.com/codex/bootstrapping-aws-ec2-instance-to-update-packages-install-and-start-apache-http-server-f68fe1fe33ba
+
 4  Основы безопасности VPC
 
 Контроль сетьевого доступа (ACL)
