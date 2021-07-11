@@ -483,6 +483,66 @@ Aplication ELB. специфические правила маршрутизац
 
 3 – Создание application ELB
 
+создадим 4 инстанса
+
+![image](https://user-images.githubusercontent.com/58170246/125199359-8de7f100-e26e-11eb-9a0b-23b0aeca187f.png)
+
+создадим целевые группы pictures and videos
+
+![image](https://user-images.githubusercontent.com/58170246/125199469-f931c300-e26e-11eb-9ab0-5ec16b8e22cf.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125199578-7bba8280-e26f-11eb-8c84-e12dc9d8217d.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125199587-8a089e80-e26f-11eb-8d87-e67a1429f2f6.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125199683-026f5f80-e270-11eb-9dc3-fca65d9c3e50.png)
+ 
+ ассоциируем с инстансами
+ 
+ ![image](https://user-images.githubusercontent.com/58170246/125199841-c25cac80-e270-11eb-8813-a55996ccb87f.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125199920-1d8e9f00-e271-11eb-9d02-1f20999a62a7.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125199971-5af32c80-e271-11eb-8ad3-16bb2c03cd96.png)
+
+создаем балансировщик нагрузки
+
+![image](https://user-images.githubusercontent.com/58170246/125200140-42374680-e272-11eb-9560-e84f2de963f8.png)
+
+выбераем Application Load Balancer
+
+![image](https://user-images.githubusercontent.com/58170246/125200219-b7a31700-e272-11eb-811e-38455bc71d99.png)
+
+internet-facing-означает что даная схема будет взаимодействовать с внешним поступающим через интернет  шлюз трафиком.
+
+будем использовать IP адрес четвертой версии интернет протокола.
+
+порт HTTP
+
+выбераем зоны где расположены наши инстансы.
+
+![image](https://user-images.githubusercontent.com/58170246/125204848-e972a880-e287-11eb-880e-3afa14650bef.png)
+
+Группа безопасности создадим новую группу. 
+
+![image](https://user-images.githubusercontent.com/58170246/125205010-c72d5a80-e288-11eb-8d46-446643eb09ca.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125205033-efb55480-e288-11eb-9abb-4da71e657aa9.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125205062-11164080-e289-11eb-930f-1062ce596b5b.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125205081-212e2000-e289-11eb-950d-fd2a66dc953b.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125205097-4327a280-e289-11eb-8a53-5c439900771b.png)
+
+
+
+
+
+
+
+
+
 
 
 4 – Маршрутизация траффика в приватных подсетях
