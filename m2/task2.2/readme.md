@@ -12,11 +12,24 @@ I stydied.
 
 4.Review the 10-minute exampleLaunch a Linux Virtual Machinewith Amazon Lightsail. Repeat, create your own VM in the AWS cloud and connect to it.
 
-5.Launch anotherLinux Virtual MachinewithoutAmazon Lightsail.It is recommended to use the t2or t3.micro instance and the CentOS operating system.
+![image](https://user-images.githubusercontent.com/58170246/125655191-b7376bb7-a81b-4242-8b2d-49cf0196aace.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125655278-fdcf4f3f-017f-4bb1-a72b-987dc90b9405.png)
+
+
+5.Launch anotherLinux Virtual MachinewithoutAmazon Lightsail. It is recommended to use the t2or t3.micro instance and the CentOS operating system.
 
 6.Create a snapshot of your instance to keep as a backup.
 
+![image](https://user-images.githubusercontent.com/58170246/125655692-e78b9759-04bc-481f-a8c3-f01ad45cf7a5.png)
+
+![image](https://user-images.githubusercontent.com/58170246/125655837-99805708-9fc8-41ea-9e9e-be1cae8d4c6e.png)
+
+
 7.Create and attach a Disk_D (EBS)to your instance to add more storage space.Create and save some file on Disk_D.
+
+![image](https://user-images.githubusercontent.com/58170246/125656266-198c24c5-408f-4223-a2f0-ab186acf9431.png)
+
 
 8.Launch the third instance from backup.
 
