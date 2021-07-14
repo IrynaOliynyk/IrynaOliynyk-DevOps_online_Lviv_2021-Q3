@@ -35,6 +35,9 @@ I stydied.
 
 9.Detach Disk_D from the 2nd instance and attach disk_D to the new instance.
 
+![image](https://user-images.githubusercontent.com/58170246/125657021-94d27f1c-5b4d-4996-8dc7-fc6d98f138c6.png)
+
+
 10.Launch and configure a WordPress instancewith Amazon Lightsaillink
 
 11.Review the 10-minute exampleStore and Retrieve a File. Repeat, creating your own repository.
