@@ -8,7 +8,7 @@ TASK 3.1
 
 ## PART 1
 
-1.DownloadMySQL server for your OS on VM.
+1.Download MySQL server for your OS on VM. (https://dev.mysql.com/downloads/)
 
 2.Install MySQL server on VM.
 
