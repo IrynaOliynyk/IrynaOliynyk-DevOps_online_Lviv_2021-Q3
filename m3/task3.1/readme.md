@@ -1,4 +1,4 @@
-## EPAM University ProgramsDevOpsexternal course
+# EPAM University ProgramsDevOpsexternal course
 
 Module 3
 
@@ -6,7 +6,7 @@ Database Administration
 
 TASK 3.1
 
-# PART 1
+## PART 1
 
 1.DownloadMySQL server for your OS on VM.
 
@@ -27,7 +27,7 @@ certain actions.
 
 9.Make a selection from the main tableDBMySQL.
 
-# PART 2
+## PART 2
 
 10.Make backup of your database.
 
@@ -43,7 +43,7 @@ certain actions.
 
 16.Create thedumpof yourdatabase.
 
-# PART 3
+## PART 3
 
 17.Create an Amazon DynamoDB table
 
