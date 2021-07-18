@@ -21,6 +21,15 @@ TASK 3.1
 
 #apt-get update (обновляем данные репозитория, чтоб в  обновленном  производить поиск базы данных)
 
+
+
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+sudo rm /var/lib/dpkg/lock-frontend
+
+
+
 ![image](https://user-images.githubusercontent.com/58170246/126062194-32cde8bf-41ee-451c-8b08-4f8cd75061a5.png)
 
 теперь ищим программы mysql
