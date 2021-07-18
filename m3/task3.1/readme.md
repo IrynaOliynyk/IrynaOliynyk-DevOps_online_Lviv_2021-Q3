@@ -128,17 +128,16 @@ mariadb замена mysql
 
 
 
-
-
-
-
-
-
-
-
 3.Select a subject area anddescribe the database schema, (minimum 3 tables)
 
 4.Create a database on the server through the console.
+
+CREATE DATABASE mydb;
+
+
+
+
+
 
 5.Fill in tables.
 
