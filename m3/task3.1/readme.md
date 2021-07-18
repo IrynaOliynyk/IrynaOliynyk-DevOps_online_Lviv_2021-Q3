@@ -28,6 +28,8 @@ sudo rm /var/cache/apt/archives/lock
 sudo rm /var/lib/dpkg/lock
 sudo rm /var/lib/dpkg/lock-frontend
 
+sudo dpkg --configure -a
+
 
 
 ![image](https://user-images.githubusercontent.com/58170246/126062194-32cde8bf-41ee-451c-8b08-4f8cd75061a5.png)
