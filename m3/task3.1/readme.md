@@ -56,7 +56,7 @@ sudo dpkg --configure -a
 
 устанавливаем сервер и клиент. Клиент разрешает подсоеденится  к серверу.
 
-#apt-get install mysql-client-5.7.33 mysql-server-5.7.33 
+#apt-get install mysql-client-5.7 mysql-server-5.7 
 
 ![image](https://user-images.githubusercontent.com/58170246/126063067-4737bd98-014b-4ec2-bbbd-3a14d46e11c6.png)
 
@@ -70,22 +70,67 @@ sudo dpkg --configure -a
 
 ![image](https://user-images.githubusercontent.com/58170246/126063700-7138ef3b-caf6-4423-b8ec-44b1f87bfac2.png)
 
+![image](https://user-images.githubusercontent.com/58170246/126078403-885347ce-002b-4013-82c7-b9bb5309f03b.png)
+
+скрипт с помощью языка запросов ; определяет конец команды!!
 
 
 для CentOS
 
-#yam search mysql
+#yum search mysql
+
+![image](https://user-images.githubusercontent.com/58170246/126078532-952742ed-3000-46a6-9c75-7220f5223b22.png)
 
 програм sql server в вписке CentOS не представлено, но представлено mariadb 
 
+![image](https://user-images.githubusercontent.com/58170246/126078565-b54c2d96-4d90-4c22-a0b7-76b2573f80ac.png)
+
 ![image](https://user-images.githubusercontent.com/58170246/126061930-b5b05cfa-b7c7-45d1-8dfa-946d46813e41.png)
 
-замена mysql
+mariadb замена mysql
 
 найдем саму програму сервера mariadb 
 
-# yam search mariadb-server
-# yam instal mariadb
+#yum search mariadb-server ![image](https://user-images.githubusercontent.com/58170246/126078650-86216c2f-89c5-4fc4-b6d7-9087393e2a3c.png)
+
+#yum instal mariadb-server ![image](https://user-images.githubusercontent.com/58170246/126078662-91e9c0f4-bd15-4560-b9a8-a6c70188efcd.png)
+
+#systemctl status mariadb ![image](https://user-images.githubusercontent.com/58170246/126078700-1c14a0cd-6df1-4123-9f0d-042d8ea33712.png)
+ 
+сервис загружен но не активен ![image](https://user-images.githubusercontent.com/58170246/126078712-4549efb0-d9c1-4a04-8f05-6f8a79ab22dc.png)
+
+и не настроен на запуск при загрузке системы.
+
+#systemctl enable mariadb ![image](https://user-images.githubusercontent.com/58170246/126078797-b95a3000-e9b1-45d3-9e2d-1e343cbaa5fd.png)
+
+#systemctl start mariadb ![image](https://user-images.githubusercontent.com/58170246/126078819-cacd7ca2-0768-40c7-beb5-d6942f488f7b.png)
+
+#systemctl status mariadb  ![image](https://user-images.githubusercontent.com/58170246/126078856-9212979b-428a-4e7f-8f5f-4624c1da2e23.png)
+
+установим пароль для root пользователя
+
+#mysqladmin -u root password "123"
+
+![image](https://user-images.githubusercontent.com/58170246/126078924-6dbf6cc6-f6e5-43e4-8c74-9a1e8023c852.png)
+
+#mysql uroot -p
+![image](https://user-images.githubusercontent.com/58170246/126078963-08370ffb-3e2a-4de1-97e3-dea710450202.png)
+
+![image](https://user-images.githubusercontent.com/58170246/126079003-08978f0d-fa56-47d3-8e3b-88878f13655c.png)
+
+![image](https://user-images.githubusercontent.com/58170246/126079029-61b7d11c-444f-4d8c-b492-832171c4e4a7.png)
+
+![image](https://user-images.githubusercontent.com/58170246/126079038-e02b53d1-65da-44b6-b5b0-b1915fe428dc.png)
+
+![image](https://user-images.githubusercontent.com/58170246/126079068-aa3b8eff-7497-4e10-b1af-b7571b605a1b.png)
+
+![image](https://user-images.githubusercontent.com/58170246/126079127-bd2fedcd-1eda-4485-9075-e6d91c570b08.png)
+
+
+
+
+
+
 
 
 
@@ -97,14 +142,14 @@ sudo dpkg --configure -a
 
 5.Fill in tables.
 
-6.Constructand execute SELECToperator with WHERE,GROUP BYand ORDER BY.
+6.Constructand execute SELECT operator with WHERE,GROUP BYand ORDER BY.
 
 7.Execute other different SQL queries DDL, DML, DCL.
 
 8.Create a database of new users with different privileges. Connect to the database as a new user and verify that the privilegesallow or deny 
 certain actions.
 
-9.Make a selection from the main tableDBMySQL.
+9.Make a selection from the main table DB MySQL.
 
 ## PART 2
 
