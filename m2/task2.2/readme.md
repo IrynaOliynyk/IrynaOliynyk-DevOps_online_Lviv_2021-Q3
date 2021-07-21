@@ -4,49 +4,56 @@
 
 I stydied.
 
-2.Register with AWS(first priority)or alternatively, you can register with AWS Educateif you are currently a student.
+2. Register with AWS(first priority)or alternatively, you can register with AWS Educateif you are currently a student.
 
 ![image](https://user-images.githubusercontent.com/58170246/124953990-4e2aca80-e01e-11eb-8629-738596befcf1.png)
 
-3.Find the hands-on tutorialsfor your AWS needs. Explore list of step-by-step tutorials for deferent category. Use, repeat and have fun))
+3. Find the hands-on tutorialsfor your AWS needs. Explore list of step-by-step tutorials for deferent category. Use, repeat and have fun))
 
-4.Review the 10-minute exampleLaunch a Linux Virtual Machinewith Amazon Lightsail. Repeat, create your own VM in the AWS cloud and connect to it.
+4. Review the 10-minute exampleLaunch a Linux Virtual Machinewith Amazon Lightsail. Repeat, create your own VM in the AWS cloud and connect to it.
 
 ![image](https://user-images.githubusercontent.com/58170246/125655191-b7376bb7-a81b-4242-8b2d-49cf0196aace.png)
 
 ![image](https://user-images.githubusercontent.com/58170246/125655278-fdcf4f3f-017f-4bb1-a72b-987dc90b9405.png)
 
 
-5.Launch anotherLinux Virtual MachinewithoutAmazon Lightsail. It is recommended to use the t2or t3.micro instance and the CentOS operating system.
+5. Launch anotherLinux Virtual MachinewithoutAmazon Lightsail. It is recommended to use the t2or t3.micro instance and the CentOS operating system.
 
-6.Create a snapshot of your instance to keep as a backup.
+6. Create a snapshot of your instance to keep as a backup.
 
 ![image](https://user-images.githubusercontent.com/58170246/125655692-e78b9759-04bc-481f-a8c3-f01ad45cf7a5.png)
 
 ![image](https://user-images.githubusercontent.com/58170246/125655837-99805708-9fc8-41ea-9e9e-be1cae8d4c6e.png)
 
 
-7.Create and attach a Disk_D (EBS)to your instance to add more storage space.Create and save some file on Disk_D.
+7. Create and attach a Disk_D (EBS)to your instance to add more storage space.Create and save some file on Disk_D.
 
 ![image](https://user-images.githubusercontent.com/58170246/125656266-198c24c5-408f-4223-a2f0-ab186acf9431.png)
 
 
-8.Launch the third instance from backup.
+8.  Launch the third instance from backup.
 
-9.Detach Disk_D from the 2nd instance and attach disk_D to the new instance.
+9. Detach Disk_D from the 2nd instance and attach disk_D to the new instance.
 
 ![image](https://user-images.githubusercontent.com/58170246/125657021-94d27f1c-5b4d-4996-8dc7-fc6d98f138c6.png)
 
 
-10.Launch and configure a WordPress instancewith Amazon Lightsaillink
+10. Launch and configure a WordPress instancewith Amazon Lightsaillink
 
-11.Review the 10-minute exampleStore and Retrieve a File. Repeat, creating your own repository.
+11. Review the 10-minute exampleStore and Retrieve a File. Repeat, creating your own repository.
 
-12.Review the 10-minute example Batch upload files to the cloudto Amazon S3 using the AWS CLI. Create a user AWS IAM, configure CLI AWS and upload any files to S3.
+12. Review the 10-minute example Batch upload files to the cloudto Amazon S3 using the AWS CLI. Create a user AWS IAM, configure CLI AWS and upload any files to S3.
 
-13.Review the 10-minute example.Explore the possibilities of creating your own domain and domain name for your site.
+13. Review the 10-minute example. Explore the possibilities of creating your own domain and domain name for your site.
 
 14.Review   the   10-minute exampleDeploy   Docker   Containers   on   Amazon   Elastic Container Service (Amazon ECS). Repeat, create a cluster, and run the online demo applicationor better otherapplicationwith custom settings.
+
+
+![image](https://user-images.githubusercontent.com/58170246/126448051-441b92e5-75fa-47d2-a5bf-0403531d5754.png)
+
+
+![image](https://user-images.githubusercontent.com/58170246/126447867-88700ce8-14a4-4ffc-9b33-4271fddb66d5.png)
+
 
 15.Create a static website on Amazon S3, publicly available(link1or link2-using a custom domainregistered with Route 53).Post on the page your own photo, the name of the educational program(EPAM DevOps online Summer2021),thelist of AWS services with which the student worked within the educational program or earlierand the full list with links of completed labs (based on tutorialsor qwiklabs).Provide the link to the websitein your report.
 
@@ -379,7 +386,6 @@ systemctl enable httpd
 ![image](https://user-images.githubusercontent.com/58170246/125211217-8bf15280-e2ad-11eb-9e04-a645edb635d6.png)
 
 ![image](https://user-images.githubusercontent.com/58170246/125211189-695f3980-e2ad-11eb-92b5-dacebe9e037f.png)
-
 
 
 7 – Конфигурация хранилища
