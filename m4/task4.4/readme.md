@@ -6,6 +6,11 @@
 
 І треба налаштувати трафік між двома мережами.
 
+![image](https://user-images.githubusercontent.com/58170246/126916017-9a78e690-b4bb-4d70-a564-d74d6de2afbe.png)
+
+
+
+
 
 
 
