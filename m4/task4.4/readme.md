@@ -11,7 +11,8 @@
 
 ![image](https://user-images.githubusercontent.com/58170246/126916090-255e1dd8-3ec3-453b-8815-0834da3a13f8.png)
 
+Організувати 2 підмережі. Налаштувати DNS на серверах.
 
-
+![image](https://user-images.githubusercontent.com/58170246/126916516-9331d55a-c730-4bcf-a560-0951732e5cd8.png)
 
 
