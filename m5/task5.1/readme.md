@@ -2,7 +2,7 @@ Task1.Part1
 
 1)  Log in to the system as root.  
 
-2) Use the passwd command to change the password. Examine the basic parameters of the command. What system file does it change *?
+2) Use the ```passwd``` command to change the password. Examine the basic parameters of the command. What system file does it change *?
 
 
 The ```passwd``` program changes the passwords of user accounts. Regular user can only change the password for his own account, the superuser can change the password any account. ```passwd``` also changes account information, or password expiration date.
