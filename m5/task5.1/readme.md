@@ -11,7 +11,18 @@ The ```passwd``` program changes the passwords of user accounts. Regular user ca
 
 4) Change personal information about yourself.
 
-5) Become familiar with the Linux help system and the man and info commands. Get help on the previously discussed commands, define and describe any two keys for these commands. Give examples.6) Explore the more and less commands using the help system. View the contents of files .bash* using commands.7) * Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command.8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command.Task1.Part21)Examine the tree command. Master the technique of applying a template, for example, display all files that contain a character c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level. 2)What command can be used to determine the type of file (for example, text or binary)? Give an example.3)Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory from anywhere in the filesystem?4)Become familiar with the various options for the ls    command. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches.5)Perform the following sequence of operations: -  create a subdirectory in the home directory;-  in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);-  view the created file;-  copy the created file to your home directory using relative and absolute addressing.-  delete the previously created subdirectory with the file requesting removal;-  delete the file copied to the home directory.
+5) Become familiar with the Linux help system and the man and info commands. Get help on the previously discussed commands, define and describe any two keys for these commands. Give examples.
+6) Explore the more and less commands using the help system. View the contents of files .bash* using commands.
+7) * Describe in plans that you are working on laboratory work 1. Tip: You should read the documentation for the finger command.
+
+8) * List the contents of the home directory using the ls command, define its files and directories. Hint: Use the help system to familiarize yourself with the ls command.
+Task1.
+Part2
+1)Examine the tree command. Master the technique of applying a template, for example, display all files that contain a character c, or files that contain a specific sequence of characters. List subdirectories of the root directory up to and including the second nesting level. 
+2)What command can be used to determine the type of file (for example, text or binary)? Give an example.
+3) Master the skills of navigating the file system using relative and absolute paths. How can you go back to your home directory from anywhere in the filesystem?
+4) Become familiar with the various options for the ls    command. Give examples of listing directories using different keys. Explain the information displayed on the terminal using the -l and -a switches.
+5) Perform the following sequence of operations: -  create a subdirectory in the home directory;-  in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);-  view the created file;-  copy the created file to your home directory using relative and absolute addressing.-  delete the previously created subdirectory with the file requesting removal;-  delete the file copied to the home directory.
 
 6)Perform the following sequence of operations:
 
