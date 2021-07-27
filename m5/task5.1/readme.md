@@ -4,6 +4,9 @@ Task1.Part1
 
 2) Use the passwd command to change the password. Examine the basic parameters of the command. What system file does it change *?
 
+
+The ## passwd ##  program changes the passwords of user accounts. Regular user can only change the password for his own account, the superuser can change the password any account. Passwd also changes account information, or password expiration date.
+
 3)  Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
 
 4) Change personal information about yourself.
