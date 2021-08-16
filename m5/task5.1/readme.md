@@ -1,6 +1,9 @@
 Task1.Part1
 
-1)  Log in to the system as root.  
+1)  Log in to the system as root. 
+
+![image](https://user-images.githubusercontent.com/58170246/129597844-bb3be019-1b75-43fc-9834-ac4bb4a1ea6f.png)
+
 
 2) Use the ```passwd``` command to change the password. Examine the basic parameters of the command. What system file does it change *?
 
