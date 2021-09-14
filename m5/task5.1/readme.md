@@ -2,6 +2,8 @@ Task1.Part1
 
 1)  Log in to the system as root. 
 
+```sudo -i```
+
 ![image](https://user-images.githubusercontent.com/58170246/129597844-bb3be019-1b75-43fc-9834-ac4bb4a1ea6f.png)
 
 
@@ -9,6 +11,29 @@ Task1.Part1
 
 
 The ```passwd``` program changes the passwords of user accounts. Regular user can only change the password for his own account, the superuser can change the password any account. ```passwd``` also changes account information, or password expiration date.
+
+ПАРАМЕТРИ команди passwd:
+
+```-a, --all``` Цей параметр можна використовувати тільки разом з -S для виведення статусу всіх користувачів.
+
+```-d, --delete``` Видалити пароль користувача.
+
+```-e, --expire``` Негайно зробити пароль застарілим. В результаті це змусить користувача змінити пароль при наступному вході в систему.
+
+```-h, --help``` Показати коротку довідку і закінчити роботу.
+
+```-i, --inactive``` DAY Цей параметр використовується для блокування облікового запису після заданого числа днів після старіння пароля. Тобто, якщо пароль застарів і пройшло більше зазначених ДНІВ, то користувач більше не зможе використовувати дану обліковий запис.
+
+```-k, --keep-tokens``` Зміна пароля слід виконувати тільки для прострочених токенов аутентифікації (паролів).
+
+```-l, --lock``` Заблокувати зазначену обліковий запис. Цей параметр блокує обліковий запис змінюючи значення пароля на варіант, який не може бути шифрованих паролем. 
+
+```-m, --mindays``` МІН_ДНІВ Задати мінімальну кількість днів між зміною пароля. Нульове значення цього поля вказує на те, що користувач може змінювати свій пароль коли захоче.
+
+```-q, --quiet``` Чи не виводити повідомлень при роботі.
+
+```-r, --repository``` репозиторій
+
 
 3)  Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
 
