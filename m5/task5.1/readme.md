@@ -12,6 +12,14 @@ Task1.Part1
 
 The ```passwd``` program changes the passwords of user accounts. Regular user can only change the password for his own account, the superuser can change the password any account. ```passwd``` also changes account information, or password expiration date.
 
+
+Введемо ```passwd``` и введемо новий пароль (asdzse30)
+
+
+![image](https://user-images.githubusercontent.com/58170246/133388776-7e1eae5b-95d7-4b17-8652-52ef54c1fe92.png)
+
+
+
 ПАРАМЕТРИ команди passwd:
 
 ```-a, --all``` Цей параметр можна використовувати тільки разом з -S для виведення статусу всіх користувачів.
@@ -43,7 +51,7 @@ The ```passwd``` program changes the passwords of user accounts. Regular user ca
 
 ``-w, --warndays`` ПРЕД_ДНЕЙ Встановити число днів видачі попередження, перед тим як буде потрібно зміна пароля. У параметрі ПРЕД_ДНЕЙ вказується число днів перед тим як пароль застаріє, в перебігу яких користувачеві будуть нагадувати, що пароль скоро застаріє.
 
-``-x, --maxdays МАКС_ДНЕЙ`` Встановити максимальну кількість днів, протягом яких пароль залишається робочим. Після МАКС_ДНЕЙ пароль потрібно змінити
+``-x, --maxdays МАКС_ДНІВ`` Встановити максимальну кількість днів, протягом яких пароль залишається робочим. Після МАКС_ДНЕЙ пароль потрібно змінити
 
 
 3)  Determine the users registered in the system, as well as what commands they execute. What additional information can be gleaned from the command execution?
@@ -51,7 +59,10 @@ The ```passwd``` program changes the passwords of user accounts. Regular user ca
 
 ```passwd (etc / passwd)``` - містить інформацію про користувачів, мають такий вигляд запису - "user_name: password: UID: GID: full_name: home_directory: login_shell". Елементи запису повинні розділятися символом - ":" (двокрапка) і записуються без пробілів. Якщо пароль зберігається в зашифрованому вигляді у файлі / etc / shadow, то замість пароля вказується - "x".
 
-список користувачів
+список користувачів ```cat /etc/passwd```
+
+![image](https://user-images.githubusercontent.com/58170246/133389363-d20e64de-0844-44e6-a598-f9eedd9eeca3.png)
+
 
 
 4) Change personal information about yourself.
@@ -59,6 +70,24 @@ The ```passwd``` program changes the passwords of user accounts. Regular user ca
 
 Подивимося інформацію про користувача: ```finger -l```
 
+![image](https://user-images.githubusercontent.com/58170246/133389728-0c445589-c2b2-435e-aa74-d5c40e4486dd.png)
+ 
+ бачимо що вона не інстальована
+  
+  інсталюємо її
+  
+  ```apt instal finger```
+  
+  ![image](https://user-images.githubusercontent.com/58170246/133390052-7c61f539-5d0c-4b76-80c1-5a740e4e187d.png)
+  
+  
+  введемо знову ```finger -l```
+  
+  
+  ![image](https://user-images.githubusercontent.com/58170246/133390186-ea361ed6-cc4c-4462-a029-d622522c2b39.png)
+
+
+ 
 
 chfn
 
