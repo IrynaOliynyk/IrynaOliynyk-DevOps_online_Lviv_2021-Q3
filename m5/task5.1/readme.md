@@ -158,6 +158,9 @@ The ```passwd``` program changes the passwords of user accounts. Regular user ca
 
 6) Explore the more and less commands using the help system. View the contents of files .bash* using commands.
 
+![image](https://user-images.githubusercontent.com/58170246/133613149-c1b99926-cac3-494b-aab8-353e4d68e457.png)
+
+
 Команда ```more``` стара і основна термінальна команда, яка використовується при відкритті файлу для інтерактивного читання. Якщо вміст файлу занадто велике, щоб поміщатися на одному екрані, воно відображає вміст сторінки за сторінкою. Ви можете прокручувати вміст файлу, натискаючи клавіші ENTER або SPACE. Але одне обмеження - ви можете прокручувати тільки вперед, а не назад. Це означає, що ви можете прокручувати вниз, але не можете піднятися.
 
 Відкриємо за допомогою цієї команди файл EpamTask.txt
@@ -182,12 +185,12 @@ The ```passwd``` program changes the passwords of user accounts. Regular user ca
 
 Структура команди:
 
-$ ls опції/шлях/до/папки
+```$ ls опції/шлях/до/папки```
 
 Основні опції утиліти:
 
 
--a - відображати всі файли, включаючи приховані, це ті, перед ім'ям яких стоїть крапка;
+```-a``` - відображати всі файли, включаючи приховані, це ті, перед ім'ям яких стоїть крапка;
 
 -A - не відображати посилання на поточну папку і кореневу папку. і ..;
 
@@ -292,6 +295,11 @@ Part2
 
 ```$ tree опції```
 
+Слід зауважити що ```tree``` потрібно інсталюватии
+
+![image](https://user-images.githubusercontent.com/58170246/133606398-7838c7cd-52af-476f-be63-42f0405c4eb1.png)
+
+
 Опцій команди tree:
 
 
@@ -374,22 +382,34 @@ Part2
 -C - повертає дереву різнобарвне відображення після використання опції -n.
 
 
+![image](https://user-images.githubusercontent.com/58170246/133606637-be1b9c79-644d-49f9-97de-47f106b1b233.png)
+
+
+
 
 Тепер відобразимо всі файли, що містять у своїй назві символ c
 
-```tree -P "c" --prune```
+```tree -P "*c*" --prune```
+
+![image](https://user-images.githubusercontent.com/58170246/133606945-f511c569-7e85-42b3-b651-46270e4ed580.png)
+
+![image](https://user-images.githubusercontent.com/58170246/133607062-a1a6feef-8aeb-4930-b944-ee61fe83d24f.png)
+
 
 
 
 А зараз відобразимо всі файли з розширенням txt.
 
-```tree -P "* txt" --prune```
+```tree -P "*.txt" --prune```
 
+![image](https://user-images.githubusercontent.com/58170246/133607289-ab29f6b5-da6b-4cf8-af2e-d7a75c7a4436.png)
 
 
 Тепер відобразимо підкаталоги кореневого каталогу до другого рівня вкладеності включно
 
-```tree -L '2'```
+```tree -L 2```
+
+![image](https://user-images.githubusercontent.com/58170246/133607483-3f9ec98d-f73d-4c46-b92f-9e7bef40fb41.png)
 
 
 2)What command can be used to determine the type of file (for example, text or binary)? Give an example.
@@ -459,7 +479,10 @@ c - змінена.
 
 Створимо два файли, напишемо в них щось і порівняємо.
 
-В результаті ми отримали рядок: 2,3c2,4. Вона означає, що рядки 2 і 3 були змінені. І показані рядки, які відрізняються
+![image](https://user-images.githubusercontent.com/58170246/133608521-d8cdf8a3-488c-499a-8049-f5b2cc95376d.png)
+
+
+В результаті ми отримали рядок: 1c1,2. Вона означає, що рядки 1 і 1 були змінені. І показані рядки, які відрізняються
 
 
 
@@ -489,29 +512,42 @@ c - змінена.
 
 Найпростіший спосіб створити новий каталог - mkdir name. Наприклад створимо підкаталог з ім'ям "DevOps"
 
+![image](https://user-images.githubusercontent.com/58170246/133608943-b004b5ca-dc72-4e6a-92bf-6728cf9f533a.png)
+
 
 -  in this subdirectory create a file containing information about directories located in the root directory (using I/O redirection operations);
 
-Створимо в підкаталозі DevOps файл LvivDevOps.txt, який буде містити інформацію про каталогах, розташованих в кореневому каталозі
+Створимо в підкаталозі DevOps файл LvivDevOps.txt, який буде містити інформацію про каталоги, розташовані в кореневому каталозі
 
-touch DevOps/LvivDevOps.txt
+```touch DevOps/LvivDevOps.txt```
 
 Перейдемо в кореневій каталог:
-cd ~
+```cd ~```
 
 А тепер його вміст запишемо в файл LvivDevOps.txt.
-ls -l> Desktop/DevOps/LvivDevOps.txt
 
+```ls -l > Desktop/DevOps/LvivDevOps.txt```
 
 -  view the created file;
-cat Desktop/DevOps/LvivDevOps.txt
+
+```cat Desktop/DevOps/LvivDevOps.txt```
+
+![image](https://user-images.githubusercontent.com/58170246/133610061-ca9329c7-3078-4fd1-b9d1-95d8d3bd3a10.png)
+
 
 
 -  copy the created file to your home directory using relative and absolute addressing.
 
-cp LvivDevOps.txt ~/LvivDevOps.txt
+![image](https://user-images.githubusercontent.com/58170246/133610484-7e627040-4406-4fe3-8e32-55821627c711.png)
+
+
+cp Documents/DevOps/LvivDevOps.txt ~/LvivDevOps1.txt
 
 На скріншоті видно, що скопіювали файл в домашній каталог
+
+![image](https://user-images.githubusercontent.com/58170246/133610901-7e5818c0-a52c-4ac7-8f00-d397c104a1e2.png)
+
+![image](https://user-images.githubusercontent.com/58170246/133611042-589a9040-621c-45af-a71f-b20773f37d96.png)
 
 
 -  delete the previously created subdirectory with the file requesting removal;
@@ -522,12 +558,12 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 
 Але так як наша містить файл, то:
 
-```rm -r ~/Desktop/DevOps```
+```rm -r ~/Documents/DevOps```
 
 
 -  delete the file copied to the home directory.
 
-```rm LvivDevOps.txt```
+```rm LvivDevOps1.txt```
 
 
 
@@ -537,16 +573,26 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 
 ```mkdir test```
 
--  copy the .bash_historyfile to this directory while changing its name to labwork2;
+-  copy the .bash_history file to this directory while changing its name to labwork2;
 
 ```cp .bash_history ~/test/labwork2```
 
--  create a hard and soft link to the labwork2file in the test subdirectory; 
+![image](https://user-images.githubusercontent.com/58170246/133613235-4851f398-5b07-4031-9a88-f0a622dd7185.png)
+
+
+![image](https://user-images.githubusercontent.com/58170246/133614063-b00838ac-3e8d-411b-ad3f-796542848c7f.png)
+
+
+
+-  create a hard and soft link to the labwork2 file in the test subdirectory; 
 
 
 Для створення символічних посилань існує утиліта ```ln```. Її синтаксис дуже простий:
 
 ```$ ln опції файл_джерела файл_посилання```
+
+![image](https://user-images.githubusercontent.com/58170246/133615075-d285ac7e-c03b-4dd4-9aca-e166ec69b864.png)
+
 
 Опції утиліти:
 
@@ -570,23 +616,33 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 
 ```cat softlink```
 
+![image](https://user-images.githubusercontent.com/58170246/133615091-7f120225-9981-4f7f-bd3a-967590b47dfa.png)
+
+
 
 
 Немає ніякої різниці між посиланням і вихідним файлом. Але утиліта ```ls``` покаже що це дійсно посилання:
 
 ```ls -li```
 
+![image](https://user-images.githubusercontent.com/58170246/133615258-c4a7efdb-f9f7-4ebe-98fc-ee3442878727.png)
+
 
 Тепер створимо жорстке посилання на цей файл і протестимо його:
 
 ```ln labwork2 hardlink cat hardlink```
 
+![image](https://user-images.githubusercontent.com/58170246/133615569-942398ad-fa00-4f0d-b3b9-4ce229d9fee5.png)
 
 
 
 ```$ ls -li```
 
+![image](https://user-images.githubusercontent.com/58170246/133615715-aa2542d9-77ab-4374-b58d-06bab37e5b56.png)
+
+
 -  how to define soft and hard link, what do theseconcepts;
+
 
 СИМВОЛІЧНІ ПОСИЛАННЯ
 
@@ -604,7 +660,7 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 
 -Можна посилатися на інші розділи диска;
 
--Содержат тільки ім'я файлу, а не його вміст.
+-містять тільки ім'я файлу, а не його вміст.
 
 -Тепер давайте розглянемо жорсткі посилання.
 
@@ -626,17 +682,18 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 
 
 - change the data by opening a symbolic link. What changes will happen and why ;
-- 
+
 
 Відкрила файл через посилання, дописала до нього /// і зберегла.
 
 ```nano softlink```
 
-Відкривши просто сам файл через cat я побачив, що теж додалася рядок ```///```.
+Відкривши просто сам файл через cat я побачила, що теж додалася рядок ```///```.
 
 
 
 -  rename the hard link file to hard_lnk_labwork2
+-  
 
 ```mv hardlink hard_lnk_labwork2```
 
@@ -645,6 +702,9 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 -  rename the soft link file to symb_lnk_labwork2 file;
 
 ```mv softlink symb_lnk_labwork2```
+
+![image](https://user-images.githubusercontent.com/58170246/133616528-60089c63-d852-454d-bee0-e2ececd25259.png)
+
 
 
 -  then delete the labwork2. What changes have occurred and why?
@@ -664,6 +724,7 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 
 ```locate "traceroute"```
 
+![image](https://user-images.githubusercontent.com/58170246/133617185-8c502327-2486-4f73-a3a6-eee1447f7510.png)
 
 
 8) Determine which partitions are mounted in the system, as well as the types of these partitions.
@@ -679,6 +740,9 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 ```grep sudo * . | wc -l```
 
 Відповідь: 
+
+![image](https://user-images.githubusercontent.com/58170246/133618112-5c6df389-bb7a-4b15-8641-37a5a2afbb23.png)
+
 
 10) Using the findcommand, find all files in the /etc directory containing the host character sequence.
 
@@ -719,6 +783,9 @@ cp LvivDevOps.txt ~/LvivDevOps.txt
 Знайдемо всі файли в каталозі / etc, що містять послідовність символів S01:
 
 ```find / etc -name "S01 *" -print```
+
+![image](https://user-images.githubusercontent.com/58170246/133618930-5ff06727-931e-441c-a470-22dd546cdbb1.png)
+
 
 
 
@@ -812,3 +879,5 @@ ls -l / dev / | grep "^ s"
 Позначаються каталоги буквою d (directory):
 
 15)* List the first 5 directory files that were recently accessed in the /etcdirectory. 
+
+
