@@ -103,6 +103,10 @@ CMD.
 
 ```ps aux```
 
+![image](https://user-images.githubusercontent.com/58170246/133760630-bd6cfec2-aff9-4af2-a47c-bc8a56248dd2.png)
+
+
+
 Некоторые процессы указаны в квадратных скобках [ ] – это процессы, которые входят непосредственно в состав ядра и выполняют важные системные задачи, например, такие как управление буферным кэшем [pdflush] и организацией свопинга [kswapd].
 
 Остальная часть процессов относится к пользовательским.
@@ -115,6 +119,10 @@ CMD.
 Посмотрим список процессов:
 
 ```ps aux```
+
+
+![image](https://user-images.githubusercontent.com/58170246/133760921-b3d71265-ac2d-41af-a832-34f9be46e8ef.png)
+
 
 
 У таблиці відображається різна інформація про процес. Нас зараз цікавлять колонки PID (ідентифікатор процесу), USER (користувач, який запустив процес), STAT (стан процесу) і COMMAND (команда, яка була введена для запуску процесу).
@@ -148,18 +156,47 @@ s: лідер сесії
 
 ```ps -fu iryna```
 
+![image](https://user-images.githubusercontent.com/58170246/133761124-ac49cf84-bde8-41e2-be74-01a3cdde46d5.png)
+
+
+```ps -al -u iryna```
+
+![image](https://user-images.githubusercontent.com/58170246/133761279-66c76f62-a2d9-405f-87a6-babf75a2292d.png)
+
+
 
 9. What utilities can be used to analyze existing running tasks (by analyzing the help for the ps command)?
 
-УТИЛІТи:
+УТИЛІТИ:
 
 ```ps```
 
 ```top```
 
+![image](https://user-images.githubusercontent.com/58170246/133762079-4408b57b-56c2-43d5-9fc1-883caa93aa20.png)
+
+
+```sudo apt-get install htop```
+
+![image](https://user-images.githubusercontent.com/58170246/133762588-aadd2837-8246-4c6b-b5e4-d425357d129e.png)
+
+
+
 ```htop```
 
+![image](https://user-images.githubusercontent.com/58170246/133762693-411662ff-c50d-4906-80cf-73ad9fce73dc.png)
+
+
+```sudo apt-get install atop```
+
+![image](https://user-images.githubusercontent.com/58170246/133762922-c3866b5b-97cb-4d3e-a78b-88eb051c4503.png)
+
+
 ```atop```
+
+
+![image](https://user-images.githubusercontent.com/58170246/133762989-549a4dcf-b0d9-404a-b963-c7256300eb69.png)
+
 
 
 
@@ -191,6 +228,9 @@ s: лідер сесії
 
 ```top```
 
+![image](https://user-images.githubusercontent.com/58170246/133763114-d00d3de4-1ef4-4bab-b659-807bd7036cdb.png)
+
+
 
 Вікно можна умовно розділити на дві частини. У верхній частині знаходиться інформація про систему, спільне використання ресурсів процесора і пам'яті, розділу підкачки, і так далі. У нижній частині вікна розташований список запущених процесів з інформацією, відсортованих за певним полю.
 
@@ -202,6 +242,7 @@ s: лідер сесії
 
 top -u iryna
 
+![image](https://user-images.githubusercontent.com/58170246/133763244-6ca90e1a-f548-430c-bd0b-1dba7f70b48d.png)
 
 
 12. What interactive commands can be used to control the top command? Give a couple of examples.
@@ -256,11 +297,17 @@ L - пошук по слову;
 
 13. Sort the contents of the processes window using various parameters (for example, the amount of processor time taken up, etc.)
 
-Щоб виділити поле, по якому зараз виконується сортування натисніть клавішу y. Після цього вся колонка буде виділена жирним:
+Shift + M - сортування за використанням пам'яті
 
+![image](https://user-images.githubusercontent.com/58170246/133763870-a6c5e424-96f5-4ece-a5bc-827f2a6c0a9d.png)
 
+Shift + T - за робочим часом
 
-Для вибору сусіднього поля сортування справа або зліва від поточного використовуйте клавіші > або < відповідно. Наприклад, для сортування по пам'яті top досить перемістити поле сортування на стовпець% MEM.
+![image](https://user-images.githubusercontent.com/58170246/133764039-5ae71461-a2c8-4db3-b997-c5928842d3da.png)
+
+Shift + N - за PID
+
+![image](https://user-images.githubusercontent.com/58170246/133764116-3b947583-5e59-4bb3-93fa-11589f9f7f1d.png)
 
 14. Concept of priority, what commands are used to set priority?
 
@@ -277,6 +324,9 @@ L - пошук по слову;
 Щоб змінити пріоритет вже запущеного процесу служить команда renice:
 
 ```renice -n <показник_поступливості> [-p PID] [-u UID]```
+
+![image](https://user-images.githubusercontent.com/58170246/133764716-8bc71bbe-2d10-47bc-9c00-7a59cb8c62ee.png)
+
 
 
 15. Can I change the priority of a process using the top command? If so, how?
@@ -345,17 +395,17 @@ bg - переводить процес у фоновий.
 
 Запустити програму у фоновому режимі можна за допомогою конструкції <команда> &. Наприклад в командному рядку напишемо таке:
 
-sleep 100 &
+```sleep 100 &```
 
 Тепер перевіримо, чи виконується процес:
 
-jobs
+```jobs```
 
 
 
 Виведемо процес sleep 100 & на передній план. Він у нас під номером 1, тому:
 
-fg% 1
+```fg% 1```
 
 Зараз він не повинен відобразитися через команду jobs, тому що перестав бути фоновим. перевіримо:
 
