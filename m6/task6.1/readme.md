@@ -6,6 +6,11 @@ Networking with Linux
 
 2.VM2 has one interface (internal), VM1 has 2 interfaces (NAT and internal). Configure  all networkinterfaces in order to make VM2 has an access to the Internet (iptables, forward, masquerade).   
 
+![image](https://user-images.githubusercontent.com/58170246/133940190-0942192f-f183-4417-941e-2be70b7587e5.png)
+
+```sudo nano /etc/network/interfaces```
+
+
 3.Check the route from VM2 to Host. 
 
 4.Check the access to the Internet, (just ping, for example, 8.8.8.8). 
