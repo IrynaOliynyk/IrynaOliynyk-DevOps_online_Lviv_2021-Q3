@@ -413,6 +413,25 @@ Part2
 
 1. Check the implementability of the most frequently used OPENSSH commands in the MS Windows operating system. (Description of the expected result of the commands + screenshots: command – result should be presented)
 
+![image](https://user-images.githubusercontent.com/58170246/133927380-23fcc101-9bda-4318-96bf-4221f4022653.png)
+
+Перекидання портів для SSH
+
+![image](https://user-images.githubusercontent.com/58170246/133927457-cae5f93c-6387-49d6-a93e-9519a971f5ab.png)
+
+![image](https://user-images.githubusercontent.com/58170246/133927605-8b12f1cf-3ccf-4a56-8794-5b9234413bee.png)
+
+![image](https://user-images.githubusercontent.com/58170246/133927772-7522b849-d411-4916-ae4b-ecd8ae0efce3.png)
+
+Аналогічним способом виконується підключення за допомогою PuTTY. В поле «Host Name» вказуємо «localhost», а в поле «Port» - «2222»
+
+![image](https://user-images.githubusercontent.com/58170246/133927831-340c4917-463d-446e-8b59-1afa312814a3.png)
+
+підключення через мережевий міст.
+
+
+
+
 2. Implement basic SSH settings to increase the security of the client-server connection (at least 
 
 3. List the options for choosing keys for encryption in SSH. Implement 3 of them.
