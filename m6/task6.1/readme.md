@@ -2,14 +2,11 @@ Networking with Linux
 
 1.Create virtual machines connection according to figure 1:
 
-vm1
 https://qna.habr.com/q/702327
 
 ![image](https://user-images.githubusercontent.com/58170246/129625046-72f91d78-08df-4e3e-bd53-73eca07e48c4.png)
 
-vm2
 
-![image](https://user-images.githubusercontent.com/58170246/135136933-35bc4785-d248-49fd-b5dd-74f1b1b3d7cd.png)
 
 
 2.VM2 has one interface (internal), VM1 has 2 interfaces (NAT and internal). Configure  all networkinterfaces in order to make VM2 has an access to the Internet (iptables, forward, masquerade).  
@@ -28,6 +25,12 @@ sysctl -w net.ipv4.conf.all.forwarding = 1
 
 ![image](https://user-images.githubusercontent.com/58170246/135130969-7325a7ce-b77f-42cf-80dd-fe09fffae82d.png)
 
+
+vm2
+
+![image](https://user-images.githubusercontent.com/58170246/135136933-35bc4785-d248-49fd-b5dd-74f1b1b3d7cd.png)
+
+![image](https://user-images.githubusercontent.com/58170246/135137905-cdab27e2-55d5-44ad-84a3-622b52140784.png)
 
 
 3.Check the route from VM2 to Host. 
