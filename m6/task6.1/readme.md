@@ -30,7 +30,6 @@ vm2
 
 ![image](https://user-images.githubusercontent.com/58170246/135136933-35bc4785-d248-49fd-b5dd-74f1b1b3d7cd.png)
 
-![image](https://user-images.githubusercontent.com/58170246/135137905-cdab27e2-55d5-44ad-84a3-622b52140784.png)
 
 
 3.Check the route from VM2 to Host. 
@@ -38,6 +37,8 @@ vm2
 4.Check the access to the Internet, (just ping, for example, 8.8.8.8). 
 
 ![image](https://user-images.githubusercontent.com/58170246/135140732-ed1f4d29-9b32-4614-9136-325c2ffbefe2.png)
+
+![image](https://user-images.githubusercontent.com/58170246/135142069-74f6c99a-d307-4404-bc74-94b1ffa236ef.png)
 
 
 
