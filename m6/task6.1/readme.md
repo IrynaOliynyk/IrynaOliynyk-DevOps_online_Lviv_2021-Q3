@@ -37,6 +37,9 @@ vm2
 
 4.Check the access to the Internet, (just ping, for example, 8.8.8.8). 
 
+![image](https://user-images.githubusercontent.com/58170246/135140732-ed1f4d29-9b32-4614-9136-325c2ffbefe2.png)
+
+
 
 ![image](https://user-images.githubusercontent.com/58170246/135072317-4f72cb24-609d-4d8a-895e-74b6be778c53.png)
 
