@@ -42,7 +42,8 @@ vm2
 
 
 
-![image](https://user-images.githubusercontent.com/58170246/135072317-4f72cb24-609d-4d8a-895e-74b6be778c53.png)
+![image](https://user-images.githubusercontent.com/58170246/135304874-d8d09c60-1e7b-4008-8374-f7948b4e2ebb.png)
+
 
 
 5.Determine, which  resource has an IP address 8.8.8.8.
