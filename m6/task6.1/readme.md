@@ -54,6 +54,8 @@ https://askubuntu.com/questions/148638/how-do-i-enable-the-universe-repository
 ![image](https://user-images.githubusercontent.com/58170246/135336414-5a7fc720-c859-4455-94f2-5c80fe49174e.png)
 
 
+
+
 6.Determine, which  IP address belongs to resource epam.com. 
 
 7.Determine the default gateway for your HOST and display routing table. 
