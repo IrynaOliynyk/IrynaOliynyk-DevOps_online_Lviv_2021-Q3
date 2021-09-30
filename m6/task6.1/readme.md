@@ -44,9 +44,15 @@ vm2
 
 ![image](https://user-images.githubusercontent.com/58170246/135304874-d8d09c60-1e7b-4008-8374-f7948b4e2ebb.png)
 
+https://askubuntu.com/questions/148638/how-do-i-enable-the-universe-repository
+
+
 
 
 5.Determine, which  resource has an IP address 8.8.8.8.
+
+![image](https://user-images.githubusercontent.com/58170246/135336414-5a7fc720-c859-4455-94f2-5c80fe49174e.png)
+
 
 6.Determine, which  IP address belongs to resource epam.com. 
 
