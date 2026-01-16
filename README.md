@@ -1,1 +1,1 @@
-# IrynaOliynyk-DevOps_online_Lviv_2021-Q3
+# IrynaOliynyk
